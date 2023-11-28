@@ -11,6 +11,7 @@ public partial class RaceView : ContentPage
 		{
 			RaceId = 1,	
 			Name = "Dragonborn"
+
 		};
 		BindingContext= race;
 	}

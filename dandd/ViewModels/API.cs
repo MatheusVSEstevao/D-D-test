@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace dandd.Models
+namespace dandd.ViewModels
 {
-    public class Classe
+    class Class1
     {
-        public int ClassID { get; set; }
-        public string Name { get; set; }
     }
 }

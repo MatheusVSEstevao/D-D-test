@@ -5,12 +5,11 @@
              Title="RacesView">
     <VerticalStackLayout>
         <Label
-            Text="Race"
+            Text="Class"
             FontSize="Large"
             FontAttributes="Bold"
-            HorizontalTextAlignment="Start"
-            VerticalOptions="Center"
-            HorizontalOptions="Center"/>
+            VerticalOptions="Start"
+            HorizontalOptions="Start"/>
 
         <Label
             Text="{Binding Name}"

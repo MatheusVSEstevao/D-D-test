@@ -49,6 +49,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Remove="Views\ClassView.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Fonts\Roboto-Black.ttf" />
 	  <None Remove="Resources\Fonts\Roboto-BlackItalic.ttf" />
 	  <None Remove="Resources\Fonts\Roboto-Bold.ttf" />
@@ -63,6 +67,12 @@
 	  <None Remove="Resources\Fonts\Roboto-ThinItalic.ttf" />
 	  <None Remove="Resources\Images\dice.png" />
 	  <None Remove="Resources\Images\elf.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Views\ClassView.xaml">
+	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+	  </EmbeddedResource>
 	</ItemGroup>
 
 	<ItemGroup>
