@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="dandd.Views.RaceView"
              Title="RacesView">
     <VerticalStackLayout>
         <Label
-            Text="Race"
+            Text="Class"
             FontSize="Large"
             FontAttributes="Bold"
-            HorizontalTextAlignment="Start"
-            VerticalOptions="Center"
-            HorizontalOptions="Center"/>
+            VerticalOptions="Start"
+            HorizontalOptions="Start"/>
 
         <Label
             Text="{Binding Name}"
